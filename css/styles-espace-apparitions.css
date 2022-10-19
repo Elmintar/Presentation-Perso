@@ -4,7 +4,7 @@ Body{
 font-family: 'Tiro Telugu', serif;
 overflow: hidden;
 margin: 0;
-background-image: url(/Image/Espace.jpg);
+background-image: url("https://github.com/Elmintar/Presentation-Perso/blob/main/Image/Espace.jpg?raw=true");
 background-size: cover;
 
 }
