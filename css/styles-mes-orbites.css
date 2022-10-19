@@ -1,0 +1,159 @@
+
+/* création de la structure de la scène orbitale fonction */
+
+div.orbite-logo{
+    position: absolute;
+    bottom: 20%;
+    left: 70%;
+    width: 200px;
+    height: 200px;
+    margin-top: -350px;
+    margin-left: -350px;
+    -moborder-radius : 50%;
+    -wbkitborder-radius :50%;
+    border-radius: 50%;
+    /* border: 2px solid #939393; */
+    
+    -webkit-animation: orbit 10s linear infinite;
+    -moz-animation: orbit 10s linear infinite;
+    -ms-animation: orbit 10s linear infinite;
+    -o-animation: orbit 10s linear infinite;
+    animation: orbit 10s linear infinite;
+}
+
+div.orbite-logo-passions{
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: -350px;
+    margin-left: -350px;
+    -moborder-radius : 50%;
+    -wbkitborder-radius :50%;
+    border-radius: 50%;
+    /* border: 2px solid #939393; */
+    
+    -webkit-animation: orbit 10s linear infinite;
+    -moz-animation: orbit 10s linear infinite;
+    -ms-animation: orbit 10s linear infinite;
+    -o-animation: orbit 10s linear infinite;
+    animation: orbit 10s linear infinite;
+}
+
+#logo-meg-orbite{
+    position: absolute;
+    margin-left: -25px;
+    bottom: 35%;
+    margin-top: -25px;
+    -webkit-animation: inverse-orbit 10s linear infinite;
+    -moz-animation: inverse-orbit 10s linear infinite;
+    -ms-animation: inverse-orbit 10s linear infinite;
+    -o-animation: inverse-orbit 10s linear infinite;
+    animation: inverse-orbit 10s linear infinite;
+}
+
+#logo-isuite-orbite{
+    position: absolute;
+    right: 80px;
+    bottom: 135px;
+    -webkit-animation: inverse-orbit 10s linear infinite;
+    -moz-animation: inverse-orbit 10s linear infinite;
+    -ms-animation: inverse-orbit 10s linear infinite;
+    -o-animation: inverse-orbit 10s linear infinite;
+    animation: inverse-orbit 10s linear infinite;   
+}
+
+#logo-téléphone-orbite{
+    position: absolute;
+    right: 5px;
+    bottom: 140px;
+    -webkit-animation: inverse-orbit 10s linear infinite;
+    -moz-animation: inverse-orbit 10s linear infinite;
+    -ms-animation: inverse-orbit 10s linear infinite;
+    -o-animation: inverse-orbit 10s linear infinite;
+    animation: inverse-orbit 10s linear infinite;   
+}
+
+#logo-ordinateur-orbite{
+    position: absolute;
+    bottom: 26%;
+    left: 160px;
+    -webkit-animation: inverse-orbit 10s linear infinite;
+    -moz-animation: inverse-orbit 10s linear infinite;
+    -ms-animation: inverse-orbit 10s linear infinite;
+    -o-animation: inverse-orbit 10s linear infinite;
+    animation: inverse-orbit 10s linear infinite;   
+}
+
+#logo-Excel-orbite{
+    position: absolute;
+    right: 115px;
+    bottom: -30px;
+    -webkit-animation: inverse-orbit 10s linear infinite;
+    -moz-animation: inverse-orbit 10s linear infinite;
+    -ms-animation: inverse-orbit 10s linear infinite;
+    -o-animation: inverse-orbit 10s linear infinite;
+    animation: inverse-orbit 10s linear infinite;   
+}
+
+#Logo-html5-orbite{
+    position: absolute;
+    right: 15px;
+    bottom: -25px;
+    -webkit-animation: inverse-orbit 10s linear infinite;
+    -moz-animation: inverse-orbit 10s linear infinite;
+    -ms-animation: inverse-orbit 10s linear infinite;
+    -o-animation: inverse-orbit 10s linear infinite;
+    animation: inverse-orbit 10s linear infinite;   
+}
+
+
+
+
+@-webkit-keyframes orbit {
+    100%  {
+        transform: rotate(360deg)
+    }
+}
+@-moz-keyframes orbit {
+    100%  {
+        transform: rotate(360deg)
+    }
+}
+@-o-keyframes orbit {
+    100%  {
+        transform: rotate(360deg)
+    }
+}
+@keyframes orbit {
+    100%  {
+        transform: rotate(360deg)
+    }
+}
+
+@-webkit-keyframes inverse-orbit {
+    100%  {
+        transform: rotate(-360deg)
+    }
+}
+@-moz-keyframes inverse-orbit {
+    100%  {
+        transform: rotate(-360deg)
+    }
+}
+@-o-keyframes inverse-orbit {
+    100%  {
+        transform: rotate(-360deg)
+    }
+}
+@keyframes inverse-orbit {
+    100%  {
+        transform: rotate(-360deg)
+    }
+}
+
+
+
+
+

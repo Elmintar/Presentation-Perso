@@ -1,0 +1,507 @@
+
+Body{
+
+font-family: 'Tiro Telugu', serif;
+overflow: hidden;
+margin: 0;
+background-image: url(/Image/Espace.jpg);
+background-size: cover;
+
+}
+
+section.espace{
+    overflow: hidden;
+    height: 100vh;
+
+}
+
+
+/* Apparition de l'image coucou-lunettes */
+#image-coucou-lunettes{
+    position: relative;
+    right: 250px;
+    margin-top: 28%;
+    animation-name: coucou-animation;
+    animation-delay: 2s;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes coucou-animation {
+    0%{
+        transform: translateX(0);
+    }
+    10% {
+        transform: translateX(250px);
+    }
+    90% {
+        transform: translateX(250px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+h2.texte-coucou {
+        opacity: 0;
+        width: 150px;
+        left: 300px;
+        bottom: 300px;
+        background: white;
+        position: relative;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        text-align: center;
+        animation-name: texte-coucou-animation;
+        animation-delay: 3s;
+        animation-duration: 3.5s;
+        animation-fill-mode: forwards;
+      }
+h2.texte-coucou:before {
+        content: "";
+        position: absolute;
+        right: 100%;
+        top: 50px;
+        width: 0;
+        height: 0;
+        border-top: 13px solid transparent;
+        border-right: 50px solid white;
+        border-bottom: 13px solid transparent;
+      }
+ 
+@keyframes texte-coucou-animation {
+        0%{
+            opacity: 0;
+        }
+        10% {
+            opacity: 1;
+        }
+        90% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+
+    /* Apparition de l'image coucou page */
+#image-coucou-page{
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    width: 0px;
+    transform: translate(-50%, 50%);
+    animation-name: coucou-page-animation;
+    animation-delay: 8s;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes coucou-page-animation {
+    0%{
+        width: 0px;
+        height: auto;
+    }
+    10% {
+        width: 700px;
+        height: auto;
+    }
+    90% {
+        width: 700px;
+        height: auto;
+    }
+    100% {
+        width: 0px;
+        height: auto;
+    }
+}
+
+h2.text-coucou-page {
+    position: absolute;
+    bottom: 75%;
+    left: 50%;
+    opacity: 0;
+    width: 300px;
+    background: white;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    text-align: center;
+    animation-name: text-coucou-page-animation;
+    animation-delay: 8.5s;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+  }
+h2.text-coucou-page:before {
+    content: "";
+    position: absolute;
+    right: 225px;
+    top: 100%;
+    width: 0;
+    height: 0;
+    border-left: 13px solid white;
+    border-bottom: 50px solid transparent;
+  }
+
+  @keyframes text-coucou-page-animation {
+    0%{
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+    /* Apparition de l'image choix */
+
+#image-choix{
+    position: absolute;
+    top:870px;
+    left: 37%;
+    animation-name: image-choix-animation;
+    animation-delay: 14s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    }
+
+    @keyframes image-choix-animation {
+        0%{
+            transform: translateY(0);
+        }
+        100% {
+            transform: translateY(-345px);
+        }
+    }
+
+/* Apparition de l'orbite fonctions*/
+
+
+div.apparition-orbit-fonction {
+    opacity: 0;
+    animation-name: apparition-orbit-fonction-animation;
+    animation-delay: 15s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    }
+
+
+@keyframes apparition-orbit-fonction-animation {
+    0%{
+        opacity: 1;
+        transform: translateY(-2000px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(-375px);
+    }
+
+}
+/* Apparition de l'orbite passions*/
+
+
+div.apparition-orbit-passions {
+    opacity: 0;
+    animation-name: apparition-orbit-passions-animation;
+    animation-delay: 15.5s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    }
+
+
+@keyframes apparition-orbit-passions-animation {
+    0%{
+        opacity: 1;
+        transform: translateY(-2000px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(-500px);
+    }
+
+}
+
+
+/* Disparition Logo orgibte */
+
+.disparition-logo-meg{
+    opacity: 1;
+    animation-name: dispartionlogo;
+    animation-delay: 20s;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+.disparition-logo-excel{
+    opacity: 1;
+    animation-name: dispartionlogo;
+    animation-delay: 20.5s;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+.disparition-logo-html{
+    opacity: 1;
+    animation-name: dispartionlogo;
+    animation-delay: 21s;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+.disparition-logo-ordinateur{
+    opacity: 1;
+    animation-name: dispartionlogo;
+    animation-delay: 21.5s;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+.disparition-logo-telephone{
+    opacity: 1;
+    animation-name: dispartionlogo;
+    animation-delay: 22s;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+.disparition-logo-isuite{
+    opacity: 1;
+    animation-name: dispartionlogo;
+    animation-delay: 22.5s;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+@keyframes dispartionlogo {
+    0%{
+    opacity: 1;
+    }
+    100%{
+    opacity: 0;
+    }
+
+}
+
+
+    /* Apparition de l'image présentation fonction */
+
+
+.card1 {
+    opacity: 0;
+    animation-name: cards-animation1;
+    animation-delay: 20s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    }
+
+.card4 {
+    opacity: 0;
+    animation-name: cards-animation1;
+    animation-delay: 20s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+     }
+
+.card5 {
+    opacity: 0;
+    animation-name: cards-animation1;
+    animation-delay: 20s;
+    animation-duration: 3s;
+     animation-fill-mode: forwards;
+    }
+
+@keyframes cards-animation1 {
+    0%{
+    opacity: 0;
+    transform: translatex(2000px);
+    }
+    100%{
+    transform: translatex(0);
+    opacity: 1;
+    }
+
+}
+
+
+.card2 {
+    opacity: 0;
+    animation-name: cards-animation2;
+    animation-delay: 20s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    }
+
+.card3 {
+    opacity: 0;
+    animation-name: cards-animation2;
+    animation-delay: 20s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+     }
+
+.card6 {
+    opacity: 0;
+    animation-name: cards-animation2;
+    animation-delay: 20s;
+    animation-duration: 3s;
+     animation-fill-mode: forwards;
+    }
+
+@keyframes cards-animation2 {
+    0%{
+    opacity: 0;
+    transform: translatex(1000px);
+    }
+    100%{
+    transform: translatex(0);
+    opacity: 1;
+    }
+
+}
+
+
+h2.texte-fonctions {
+    opacity: 0;
+    font-size: 45px;
+    width: 450px;
+    left: 1600px;
+    bottom: 1260px;
+    background: white;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    text-align: center;
+    animation-name: texte-fonctions-animation;
+    animation-delay: 20s;
+    animation-duration: 3.5s;
+    animation-fill-mode: forwards;
+  }
+
+
+@keyframes texte-fonctions-animation {
+    0%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+    /* Apparition de l'image présentation passion */
+
+
+    .card1-passions {
+        opacity: 0;
+        animation-name: cards-animation1-passions ;
+        animation-delay: 20s;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        }
+    
+    .card4-passions  {
+        opacity: 0;
+        animation-name: cards-animation1-passions ;
+        animation-delay: 20s;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+         }
+    
+    .card5-passions  {
+        opacity: 0;
+        animation-name: cards-animation1-passions ;
+        animation-delay: 20s;
+        animation-duration: 3s;
+         animation-fill-mode: forwards;
+        }
+    
+    @keyframes cards-animation1-passions  {
+        0%{
+        opacity: 0;
+        transform: translatex(-2000px);
+        }
+        100%{
+        transform: translatex(0);
+        opacity: 1;
+        }
+    
+    }
+    
+    
+    .card2-passions  {
+        opacity: 0;
+        animation-name: cards-animation2-passions ;
+        animation-delay: 20s;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        }
+    
+    .card3-passions  {
+        opacity: 0;
+        animation-name: cards-animation2-passions ;
+        animation-delay: 20s;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+         }
+    
+    .card6-passions  {
+        opacity: 0;
+        animation-name: cards-animation2-passions ;
+        animation-delay: 20s;
+        animation-duration: 3s;
+         animation-fill-mode: forwards;
+        }
+    
+    @keyframes cards-animation2-passions  {
+        0%{
+        opacity: 0;
+        transform: translatex(-1000px);
+        }
+        100%{
+        transform: translatex(0);
+        opacity: 1;
+        }
+    
+    }
+
+    h2.texte-fonctions-passions {
+        opacity: 0;
+        font-size: 45px;
+        width: 450px;
+        left: 300px;
+        bottom: 1375px;
+        background: white;
+        position: relative;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        text-align: center;
+        animation-name: texte-fonctions-animation;
+        animation-delay: 20s;
+        animation-duration: 3.5s;
+        animation-fill-mode: forwards;
+      }
+    
+    
+    @keyframes texte-fonctions-animation-passions  {
+        0%{
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }

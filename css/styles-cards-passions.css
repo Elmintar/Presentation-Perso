@@ -1,0 +1,495 @@
+
+
+/* Animation passions */
+
+/* card 1 */
+
+.card1-passions{
+    border-radius: 16px;
+    left: 25px;
+    top: 125px;
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    overflow: hidden;
+    box-shadow: 0 5px 50px rgba(0,0,0,1);
+}
+
+.card1-passions::before{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255,0.1);
+}
+
+.card1-passions .img1-passions{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+
+.card1-passions .img1-passions span{
+    width: 25%;
+    height: 100%;
+    background-image: url(/Image/sauter.gif);
+    transition: 0.5s;
+}
+
+.card1-passions .img1-passions span:nth-child(1) {
+    transition-delay: 0;
+    background-position: 0;
+}
+
+.card1-passions .img1-passions span:nth-child(2) {
+    transition-delay: 0.1s;
+    background-position: 33.33%;
+}
+.card1-passions .img1-passions span:nth-child(3) {
+    transition-delay: 0.2s;
+    background-position: 66.66%;
+}
+.card1-passions .img1-passions span:nth-child(4) {
+    transition-delay: 0.3s;
+    background-position: 100%;
+}
+
+.card1-passions:hover .img1-passions > span {
+    transform: translatey(-100%);
+}
+
+.content1-passions{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:rgba(0,0,0,0);
+    padding: 20px 20px;
+    width: 100%;
+    height: 100%;
+    transform: translateY(0%);
+    transition: 1s;
+    transition-delay: 0.1s;
+    font-size: 18px;
+}
+
+.card1-passions:hover .content1-passions{
+    color: white;
+    transform: translateY(0%);
+    transition: 1s;
+    transition-delay: 0.1s;
+    background-color: rgb(0, 0, 0,0.75);
+}
+
+/* card 2 */
+
+.card2-passions{
+    border-radius: 16px;
+    top: 125px;
+    left: 575px;
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    overflow: hidden;
+    box-shadow: 0 5px 50px rgba(0,0,0,1);
+}
+
+.card2-passions::before{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255,0.1);
+}
+
+.card2-passions .img2-passions{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+
+.card2-passions .img2-passions span{
+    width: 25%;
+    height: 100%;
+    background-image: url(/Image/Dragon-sans-fonds.png);
+    transition: 0.5s;
+}
+
+.card2-passions .img2-passions span:nth-child(1) {
+    transition-delay: 0;
+    background-position: 0;
+}
+
+.card2-passions .img2-passions span:nth-child(2) {
+    transition-delay: 0.1s;
+    background-position: 33.33%;
+}
+.card2-passions .img2-passions span:nth-child(3) {
+    transition-delay: 0.2s;
+    background-position: 66.66%;
+}
+.card2-passions .img2-passions span:nth-child(4) {
+    transition-delay: 0.3s;
+    background-position: 100%;
+}
+
+.card2-passions:hover .img2-passions > span {
+    transform: translatey(-100%);
+}
+
+.content2-passions{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:rgba(0,0,0,0);
+    padding: 20px 20px;
+    width: 100%;
+    height: 100%;
+    transform: translateY(0%);
+    transition: 1s;
+    transition-delay: 0.1s;
+    font-size: 18px;
+}
+
+.card2-passions:hover .content2-passions{
+    color: white;
+    transform: translateY(0%);
+    transition: 1s;
+    transition-delay: 0.1s;
+    background-color: rgb(0, 0, 0,0.75);
+}
+
+/* card 3 */
+
+.card3-passions{
+    border-radius: 16px;
+    left: 575px;
+    top: 400px;
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    overflow: hidden;
+    box-shadow: 0 5px 50px rgba(0,0,0,1);
+}
+
+.card3-passions::before{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255,0.1);
+}
+
+.card3-passions .img3-passions{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+
+.card3-passions .img3-passions span{
+    width: 25%;
+    height: 100%;
+    background-image: url(/Image/Trou\ noir\ sans\ fonds.png);
+    transition: 0.5s;
+}
+
+.card3-passions .img3-passions span:nth-child(1) {
+    transition-delay: 0.3s;
+    background-position: 0;
+}
+
+.card3-passions .img3-passions span:nth-child(2) {
+    transition-delay: 0.2s;
+    background-position: 33.33%;
+}
+.card3-passions .img3-passions span:nth-child(3) {
+    transition-delay: 0.1s;
+    background-position: 66.66%;
+}
+.card3-passions .img3-passions span:nth-child(4) {
+    transition-delay: 0;
+    background-position: 100%;
+}
+
+.card3-passions:hover .img3-passions > span {
+    transform: translatex(400%);
+}
+
+.content3-passions{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:rgba(0,0,0,0);
+    padding: 20px 20px;
+    width: 100%;
+    height: 100%;
+    transform: translateY(0%);
+    transition: 1s;
+    transition-delay: 0.1s;
+    font-size: 18px;
+}
+
+.card3-passions:hover .content3-passions{
+    color: white;
+    transform: translateY(0%);
+    transition: 1s;
+    transition-delay: 0.1s;
+    background-color: rgb(0, 0, 0,0.75);
+}
+
+/* card 4 */
+
+.card4-passions{
+    border-radius: 16px;
+    top: 400px;
+    left: 25px;
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    overflow: hidden;
+    box-shadow: 0 5px 50px rgba(0,0,0,1);
+}
+
+.card4-passions::before{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255,0.1);
+}
+
+.card4-passions .img4-passions{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+
+.card4-passions .img4-passions span{
+    width: 25%;
+    height: 100%;
+    background-image: url(/Image/chevalier.png);
+    transition: 0.5s;
+}
+
+.card4-passions .img4-passions span:nth-child(1) {
+    transition-delay: 0;
+    background-position: 0;
+}
+
+.card4-passions .img4-passions span:nth-child(2) {
+    transition-delay: 0.1s;
+    background-position: 33.33%;
+}
+.card4-passions .img4-passions span:nth-child(3) {
+    transition-delay: 0.2s;
+    background-position: 66.66%;
+}
+.card4-passions .img4-passions span:nth-child(4) {
+    transition-delay: 0.3s;
+    background-position: 100%;
+}
+
+.card4-passions:hover .img4-passions > span {
+    transform: translatex(-400%);
+}
+
+.content4-passions{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:rgba(0,0,0,0);
+    padding: 20px 20px;
+    width: 100%;
+    height: 100%;
+    transform: translateY(0%);
+    transition: 1s;
+    transition-delay: 0.1s;
+    font-size: 18px;
+}
+
+.card4-passions:hover .content4-passions{
+    color: white;
+    transform: translateY(0%);
+    transition: 1s;
+    transition-delay: 0.1s;
+    background-color: rgb(0, 0, 0,0.75);
+}
+
+/* card 5 */
+
+.card5-passions{
+    border-radius: 16px;
+    top: 675px;
+    left: 25px;
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    overflow: hidden;
+    box-shadow: 0 5px 50px rgba(0,0,0,1);
+}
+
+.card5-passions::before{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255,0.1);
+}
+
+.card5-passions .img5-passions{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+
+.card5-passions .img5-passions span{
+    width: 25%;
+    height: 100%;
+    background-image: url(/Image/enfants\ sans\ fond.png);
+    transition: 0.5s;
+}
+
+.card5-passions .img5-passions span:nth-child(1) {
+    transition-delay: 0;
+    background-position: 0;
+}
+
+.card5-passions .img5-passions span:nth-child(2) {
+    transition-delay: 0.1s;
+    background-position: 33.33%;
+}
+.card5-passions .img5-passions span:nth-child(3) {
+    transition-delay: 0.2s;
+    background-position: 66.66%;
+}
+.card5-passions .img5-passions span:nth-child(4) {
+    transition-delay: 0.3s;
+    background-position: 100%;
+}
+
+.card5-passions:hover .img5-passions > span {
+    transform: translatey(100%);
+}
+
+.content5-passions{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:rgba(0,0,0,0);
+    padding: 20px 20px;
+    width: 100%;
+    height: 100%;
+    transform: translateY(0%);
+    transition: 1s;
+    transition-delay: 0.1s;
+    font-size: 18px;
+}
+
+.card5-passions:hover .content5-passions{
+    color: white;
+    transform: translateY(0%);
+    transition: 1s;
+    transition-delay: 0.1s;
+    background-color: rgb(0, 0, 0,0.75);
+}
+
+/* card 6 */
+
+.card6-passions{
+    border-radius: 16px;
+    left: 575px;
+    top: 675px;
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    overflow: hidden;
+    box-shadow: 0 5px 50px rgba(0,0,0,1);
+}
+
+.card6-passions::before{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255,0.1);
+}
+
+.card6-passions .img6-passions{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+
+.card6-passions .img6-passions span{
+    width: 25%;
+    height: 100%;
+    background-image: url(/Image/Geek-sans-fonds.png);
+    transition: 0.5s;
+}
+
+.card6-passions .img6-passions span:nth-child(1) {
+    transition-delay: 0;
+    background-position: 0;
+}
+
+.card6-passions .img6-passions span:nth-child(2) {
+    transition-delay: 0.1s;
+    background-position: 33.33%;
+}
+.card6-passions .img6-passions span:nth-child(3) {
+    transition-delay: 0.2s;
+    background-position: 66.66%;
+}
+.card6-passions .img6-passions span:nth-child(4) {
+    transition-delay: 0.3s;
+    background-position: 100%;
+}
+
+.card6-passions:hover .img6-passions > span {
+    transform: translatey(100%);
+}
+
+.content6-passions{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:rgba(0,0,0,0);
+    padding: 20px 20px;
+    width: 100%;
+    height: 100%;
+    transform: translateY(0%);
+    transition: 1s;
+    transition-delay: 0.1s;
+    font-size: 18px;
+}
+
+.card6-passions:hover .content6-passions{
+    color: white;
+    transform: translateY(0%);
+    transition: 1s;
+    transition-delay: 0.1s;
+    background-color: rgb(0, 0, 0,0.75);
+}
