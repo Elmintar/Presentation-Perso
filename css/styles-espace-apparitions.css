@@ -1,26 +1,10 @@
 
-Body{
-
-font-family: 'Tiro Telugu', serif;
-overflow: hidden;
-margin: 0;
-background-image: url("https://github.com/Elmintar/Presentation-Perso/blob/main/Image/Espace.jpg?raw=true");
-background-size: cover;
-
-}
-
-section.espace{
-    overflow: hidden;
-    height: 100vh;
-
-}
-
 
 /* Apparition de l'image coucou-lunettes */
 #image-coucou-lunettes{
     position: relative;
     right: 250px;
-    margin-top: 28%;
+    margin-top: 24%;
     animation-name: coucou-animation;
     animation-delay: 2s;
     animation-duration: 5s;
@@ -163,8 +147,8 @@ h2.text-coucou-page:before {
 
 #image-choix{
     position: absolute;
-    top:870px;
-    left: 37%;
+    top:80%;
+    left: 35%;
     animation-name: image-choix-animation;
     animation-delay: 14s;
     animation-duration: 1s;
@@ -176,7 +160,7 @@ h2.text-coucou-page:before {
             transform: translateY(0);
         }
         100% {
-            transform: translateY(-345px);
+            transform: translateY(-420px);
         }
     }
 
@@ -376,8 +360,8 @@ h2.texte-fonctions {
     opacity: 0;
     font-size: 45px;
     width: 450px;
-    left: 1600px;
-    bottom: 1260px;
+    left: 200px;
+    bottom: 1040px;
     background: white;
     position: relative;
     -moz-border-radius: 10px;
@@ -482,8 +466,8 @@ h2.texte-fonctions {
         opacity: 0;
         font-size: 45px;
         width: 450px;
-        left: 300px;
-        bottom: 1375px;
+        left: 1250px;
+        bottom: 1160px;
         background: white;
         position: relative;
         -moz-border-radius: 10px;

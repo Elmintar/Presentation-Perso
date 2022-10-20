@@ -4,10 +4,10 @@
 
 .card1{
     border-radius: 16px;
-    left: 1325px;
+    left: 1075px;
     top: 125px;
-    width: 500px;
-    height: 250px;
+    width: 400px;
+    height: 200px;
     position: absolute;
     overflow: hidden;
     box-shadow: 0 5px 50px rgba(0,0,0,1);
@@ -32,7 +32,7 @@
 .card1 .img1 span{
     width: 25%;
     height: 100%;
-    background-image: url(https://github.com/Elmintar/Presentation-Perso/blob/main/Image/Parc%20informatique%20sans%20fond.png?raw=true);
+    background-image: url(/Image//Parc\ informatique\ sans\ fondv1.png);
     transition: 0.5s;
 }
 
@@ -71,7 +71,7 @@
     transform: translateY(0%);
     transition: 1s;
     transition-delay: 0.1s;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .card1:hover .content1{
@@ -87,9 +87,9 @@
 .card2{
     border-radius: 16px;
     top: 125px;
-    left: 1875px;
-    width: 500px;
-    height: 250px;
+    left: 1500px;
+    width: 400px;
+    height: 200px;
     position: absolute;
     overflow: hidden;
     box-shadow: 0 5px 50px rgba(0,0,0,1);
@@ -114,7 +114,7 @@
 .card2 .img2 span{
     width: 25%;
     height: 100%;
-    background-image: url(https://github.com/Elmintar/Presentation-Perso/blob/main/Image/maintenance-informatique%20sans%20fonds.png?raw=true);
+    background-image: url(/Image//maintenance-informatique\ sans\ fondsv1.png);
     transition: 0.5s;
 }
 
@@ -153,7 +153,7 @@
     transform: translateY(0%);
     transition: 1s;
     transition-delay: 0.1s;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .card2:hover .content2{
@@ -168,10 +168,10 @@
 
 .card3{
     border-radius: 16px;
-    left: 1875px;
-    top: 400px;
-    width: 500px;
-    height: 250px;
+    left: 1500px;
+    top: 350px;
+    width: 400px;
+    height: 200px;
     position: absolute;
     overflow: hidden;
     box-shadow: 0 5px 50px rgba(0,0,0,1);
@@ -196,7 +196,7 @@
 .card3 .img3 span{
     width: 25%;
     height: 100%;
-    background-image: url(https://github.com/Elmintar/Presentation-Perso/blob/main/Image/informatique_bureautique%20sans%20fond.png?raw=true);
+    background-image: url(/Image/informatique_bureautique\ sans\ fondv1.png);
     transition: 0.5s;
 }
 
@@ -235,7 +235,7 @@
     transform: translateY(0%);
     transition: 1s;
     transition-delay: 0.1s;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .card3:hover .content3{
@@ -250,10 +250,10 @@
 
 .card4{
     border-radius: 16px;
-    top: 400px;
-    left: 1325px;
-    width: 500px;
-    height: 250px;
+    top: 350px;
+    left: 1075px;
+    width: 400px;
+    height: 200px;
     position: absolute;
     overflow: hidden;
     box-shadow: 0 5px 50px rgba(0,0,0,1);
@@ -278,7 +278,7 @@
 .card4 .img4 span{
     width: 25%;
     height: 100%;
-    background-image: url(https://github.com/Elmintar/Presentation-Perso/blob/main/Image/Comptabilit%C3%A9%20sans%20fond.png?raw=true);
+    background-image: url(/Image//Comptabilité\ sans\ fondv1.png);
     transition: 0.5s;
 }
 
@@ -317,7 +317,7 @@
     transform: translateY(0%);
     transition: 1s;
     transition-delay: 0.1s;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .card4:hover .content4{
@@ -332,10 +332,10 @@
 
 .card5{
     border-radius: 16px;
-    top: 675px;
-    left: 1325px;
-    width: 500px;
-    height: 250px;
+    top: 575px;
+    left: 1075px;
+    width: 400px;
+    height: 200px;
     position: absolute;
     overflow: hidden;
     box-shadow: 0 5px 50px rgba(0,0,0,1);
@@ -360,7 +360,7 @@
 .card5 .img5 span{
     width: 25%;
     height: 100%;
-    background-image: url(https://github.com/Elmintar/Presentation-Perso/blob/main/Image/MEG%20sans%20fond.png?raw=true);
+    background-image: url(/Image//MEG\ sans\ fondv1.png);
     transition: 0.5s;
 }
 
@@ -399,7 +399,7 @@
     transform: translateY(0%);
     transition: 1s;
     transition-delay: 0.1s;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .card5:hover .content5{
@@ -414,10 +414,10 @@
 
 .card6{
     border-radius: 16px;
-    left: 1875px;
-    top: 675px;
-    width: 500px;
-    height: 250px;
+    left: 1500px;
+    top: 575px;
+    width: 400px;
+    height: 200px;
     position: absolute;
     overflow: hidden;
     box-shadow: 0 5px 50px rgba(0,0,0,1);
@@ -442,7 +442,7 @@
 .card6 .img6 span{
     width: 25%;
     height: 100%;
-    background-image: url(https://github.com/Elmintar/Presentation-Perso/blob/main/Image/I-suite%20sans%20fond.png?raw=true);
+    background-image: url(/Image//I-suite\ sans\ fondv1.png);
     transition: 0.5s;
 }
 
@@ -481,7 +481,7 @@
     transform: translateY(0%);
     transition: 1s;
     transition-delay: 0.1s;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .card6:hover .content6{
